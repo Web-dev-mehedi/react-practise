@@ -2,6 +2,9 @@
 import './App.css'
 import Counter from './counter'
 import Counter1 from './counter1'
+import Users from './users'
+import Friends from './friends'
+import Albums from './albums'
 
 
 function App() {
@@ -42,6 +45,13 @@ function App() {
   }
   return (
     <>
+      <Albums></Albums>
+     <Friends></Friends>
+     
+    <h1>Load from Api</h1>
+      <Users></Users>
+
+     <h3>counter</h3>
      <Counter1></Counter1>
      <Counter></Counter>
     
